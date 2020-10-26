@@ -6,5 +6,29 @@
 </head>
 <body>
 <h1>Hello Hubert</h1>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyAAVdiesgc7e4mDFUe0kaWMcr0fRo380ss",
+        authDomain: "help-des.firebaseapp.com",
+        databaseURL: "https://help-des.firebaseio.com",
+        projectId: "help-des",
+        storageBucket: "help-des.appspot.com",
+        messagingSenderId: "526749686714",
+        appId: "1:526749686714:web:7b4ae6f6c6221be6795b83",
+        measurementId: "G-1BY06CVPZS"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
 </body>
 </html>
